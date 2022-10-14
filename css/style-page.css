@@ -125,18 +125,22 @@ body{
 	background-color: #c18bcc;
 }
 .absolute .box__item:nth-child(1){
+	background-image: url(../img/icons/star.svg);
 	top: 20px ;
 	right: 20px;
 }
 .absolute .box__item:nth-child(2){
+	background-image: url(../img/icons/star.svg);
 	top: 60px ;
 	left: 20px;
 }
 .absolute .box__item:nth-child(3){
+	background-image: url(../img/icons/star.svg);
 	bottom: 20px ;
 	right: 400px;
 }
 .absolute .box__item:nth-child(4){
+	background-image: url(../img/icons/star.svg);
 	top: 210px ;
 	left: 40px;
 }
@@ -149,24 +153,32 @@ body{
 	background-color: #704e77;
 }
 .relative .box__item:nth-child(1){
+	background-image: url(../img/icons/circle.svg);
+
 	position: relative;
 	background-color: #dd4848;
 	top: 20px ;
 	right: 20px;
 }
 .relative .box__item:nth-child(2){
+	background-image: url(../img/icons/romb.svg);
+
 	position: relative;
 	background-color: #dd4848;
 	top: 60px ;
 	left: 20px;
 }
 .relative .box__item:nth-child(3){
+	background-image: url(../img/icons/circle.svg);
+
 	position: relative;
 	background-color: #dd4848;
 	bottom: 20px ;
 	right: 230px;
 }
 .relative .box__item:nth-child(4){
+	background-image: url(../img/icons/romb.svg);
+
 	position: relative;
 	background-color: #dd4848;
 	top: 40px ;
@@ -190,7 +202,7 @@ body{
 	margin: 50px auto;
 	border-radius: 10px;
 	background-color: #FFED95;
-	background-image: url(../img/icons/Star.svg);
+	/* background-image: url(../img/icons/Star.svg); */
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -202,12 +214,16 @@ body{
 	background-color: #ddd9a0;
 }
 .sticky .box__item:nth-child(1){
+	background-image: url(../img/icons/star.svg);
+
 	top: 100px;
 	position: sticky;
 	background-color: #FFED95;
 
 }
 .sticky .box__item:nth-child(2){
+	background-image: url(../img/icons/star.svg);
+
 	top: 100px;
 	right: 40px;
 	position: sticky;
@@ -215,6 +231,8 @@ body{
 
 }
 .sticky .box__item:nth-child(3){
+	background-image: url(../img/icons/star.svg);
+
 	top: 100px;
 	right: 100px;
 	position: sticky;
@@ -222,29 +240,39 @@ body{
 
 }
 .sticky .box__item:nth-child(4){
+	background-image: url(../img/icons/star.svg);
+
 	top: 100px;
 	left: 20px;
 	position: sticky;
 	background-color: #95fff1;
 }
 .sticky .box__item:nth-child(5){
+	background-image: url(../img/icons/star.svg);
+
 	top: 100px;
 	right: 120px;
 	position: sticky;
 	background-color: #a4d488;
 }
 .sticky .box__item:nth-child(6){
+	background-image: url(../img/icons/star.svg);
+
 	top: 100px;
 	left:50px;
 	position: sticky;
 	background-color: #9d69aa;
 }
 .sticky .box__item:nth-child(7){
+	background-image: url(../img/icons/star.svg);
+
 	top: 100px;
 	position: sticky;
 	background-color: #73ada6;
 }
 .sticky .box__item:nth-child(8){
+	background-image: url(../img/icons/star.svg);
+
 	top: 100px;
 	right: 160px;
 	position: sticky;
